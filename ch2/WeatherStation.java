@@ -10,5 +10,7 @@ public class WeatherStation {
         weatherData.setMeasurements(132, 312, 32.4f);
         weatherData.setMeasurements(134, 311, 31.4f);
         weatherData.setMeasurements(133, 310, 33.4f);
+        currentConditionDisplay.display();
+        forecastDisplay.display();
     }
 }
