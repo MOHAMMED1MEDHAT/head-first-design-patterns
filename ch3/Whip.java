@@ -1,13 +1,13 @@
 package ch3;
 
-public class Soy extends CondimentDecorator {
-    public Soy(Beverage beverage) {
+public class Whip extends CondimentDecorator {
+    public Whip(Beverage beverage) {
         this.beverage = beverage;
     }
 
     @Override
     public String getDescription() {
-        return this.beverage.getDescription() + "Soy";
+        return null;
     }
 
     @Override
