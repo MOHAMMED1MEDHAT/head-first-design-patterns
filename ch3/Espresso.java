@@ -7,6 +7,8 @@ public class Espresso extends Beverage {
 
     @Override
     public double cost() {
-        return 1.99;
+        return this.getSize() == Size.TALL ? 1.99
+                : this.getSize() == Size.GRANDE ? 3.29
+                        : 3.99;
     }
 }

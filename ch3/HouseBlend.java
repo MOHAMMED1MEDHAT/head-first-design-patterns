@@ -2,7 +2,7 @@ package ch3;
 
 public class HouseBlend extends Beverage {
     public HouseBlend() {
-        this.description = "HousBlend";
+        this.description = "HouseBlend";
     }
 
     @Override
