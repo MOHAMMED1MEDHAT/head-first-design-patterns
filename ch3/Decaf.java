@@ -5,6 +5,7 @@ public class Decaf extends Beverage {
         this.description = "Decaf";
     }
 
+    @Override
     public double cost() {
         return 0.89;
     }
