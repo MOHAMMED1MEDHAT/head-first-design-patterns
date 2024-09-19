@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class InputTest {
+
     public static void main(String[] args) throws IOException {
         int c;
         String currentPath = System.getProperty("user.dir");
@@ -23,8 +24,8 @@ public class InputTest {
             }
 
             in.close();
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (IOException e) {
+            throw e;
         }
     }
 }
